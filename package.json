@@ -1,0 +1,28 @@
+{
+  "name": "@lucacelli/opengraph-twitter-card-canonical-seo-inspector",
+  "version": "2.0.0",
+  "description": "Inspect social preview cards (og:image, twitter:card), canonical URL tags, hreflang attributes, and X-Robots-Tag HTTP headers in bulk.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "opengraph-twitter-card-canonical-seo-inspector": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "demo": "node index.js --demo"
+  },
+  "keywords": [
+    "opengraph",
+    "twitter-cards",
+    "meta-tags",
+    "canonical-url",
+    "technical-seo",
+    "social-previews",
+    "frontend-devtools",
+    "chrome-extension",
+    "seo-auditor",
+    "nodejs"
+  ],
+  "author": "Lucacelli Data Engineering",
+  "license": "MIT"
+}
